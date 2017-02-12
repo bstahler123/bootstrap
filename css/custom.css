@@ -1,0 +1,47 @@
+.navbar-text > a {
+	color: inherit; ;
+	text-decoration: none;
+
+}
+
+.bioPic
+{
+	border-radius: 10px;
+	border: 1px solid black;
+
+}
+
+body{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+
+}
+.jumbotron
+{
+	
+	border: 1px solid black;
+}
+.jumbotron h2 
+{
+	
+}
+.jumbotron p 
+{}
+
+#contactheader{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.formcontainer{
+	background-color: lightgrey;
+	margin-top: 50px;
+	padding-bottom: 30px;
+	border: 1px solid black;
+	border-radius: 10px; 
+
+}
+	
+
+
