@@ -39,8 +39,8 @@
               <div class="navbar-collapse collapse">
                  <ul class="nav navbar-nav navbar-right">
                     <li><a href="#About">About</a></li>
-                    <li><a href="#Contact">Contact</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                    <!-- <li class="dropdown"> -- Dropdown for practice --
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -59,8 +59,8 @@
         <div class="jumbotron text-center" id="About">
           <h2>Bradley Stahler</h1>
             
-                <img class="bioPic" src="Images/IMG_0067-Edit copy.jpg" height="300px" width="250px">
-                  <p>Hi my name is Bradley Stahler Hi My name is Bradley Stahler Hi my name is Bradley Stahler Hi My name is Bradley StahlerHi my name is Bradley Stahler Hi My name is Bradley StahlerHi my name is Bradley Stahler Hi My name is Bradley Stahler</p>
+                <img class="bioPic" src="Images/IMG_0067-Edit copy.jpg" height="250px" width="200px">
+                  <p>Hi my name is Bradley Stahler. I am a aspiring front end developer and love to learn new technologies.  </p>
 
         </div>
       
@@ -68,12 +68,12 @@
 
         <div class="row" id="Portfolio">
           <div class="col-sm-6 text-center">
-              <h3>Picture 1</h3>
-                <p><img src="Images/any (3).jpeg" height="400px" width="350px"></p>
+              <h3>Gems!</h3>
+                <p><img src="Images/pic1.png" height="350px" width="350px"></p>
           </div>
           <div class="col-sm-6 text-center">
-              <h3>Picture 2</h3>
-                <p><img src="Images/any (4).jpeg" height="400px" width="350px"></p>
+              <h3>Let's Go!</h3>
+                <p><img src="Images/Let's Go!.png" height="350px" width="350px"></p>
           </div> 
         </div>
 
@@ -171,5 +171,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script> $(document).on('click', 'a', function(event){
+     event.preventDefault();
+
+     $('html, body').animate({
+         scrollTop: $( $.attr(this, 'href') ).offset().top
+     }, 500);
+      });
+    </script> 
+
+
   </body>
+
+
+
+
 </html>
