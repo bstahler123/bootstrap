@@ -6,32 +6,31 @@
 
 .bioPic
 {
-	border-radius: 100px;
+	border-radius: 10px;
 	border: 1px solid lightblue;
 
-}
-
-body{
-	padding-top: 70px;
-	padding-bottom: 70px;
-	
-	
 
 }
+
 .main-header
-{
+{ 	
 
+	padding-top: 50px;
+	color: white;
+	background: 
+	linear-gradient(
+	rgba(0,0,0,0.7),
+	rgba(0,0,0,0.7)
+		),
+	url("http://mobo.co.uk/wp-content/uploads/2014/11/Website-Design-Background.png");
 	border: 1px solid black;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 100px;
+
 
 }
-.jumbotron h2 
-{
-	
-}
-.jumbotron p 
-{}
+
 
 #contactheader{
 	padding-top: 20px;
@@ -48,14 +47,33 @@ body{
 }
 .skills-header{
 	
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
 	
-	background-color: black;
 	color: white;
+	background-color: black;
+	
+	
+	
 
 }
 .lang-logo{
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+.navbar{
+	margin-bottom: 0px;
+	color: black;
+	
+	background-color: white;
+}
+article { 
+	color: white;
+	font-size: 18px;
+	padding: 20px;
 
-
+ }
+ .btn-success{
+ 
+ 	font-size: 18px;
+ }
