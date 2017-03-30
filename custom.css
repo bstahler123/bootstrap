@@ -11,7 +11,12 @@
 
 
 }
+.main-header h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	margin-bottom: 50px;
 
+}
 .main-header
 { 	
 
@@ -23,7 +28,7 @@
 	rgba(254, 153, 0, 0.8)
 		),
 	url("http://mobo.co.uk/wp-content/uploads/2014/11/Website-Design-Background.png");
-	border: 1px solid black;
+	border-bottom: 10px solid rgb(0, 153, 254);;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 220px;
@@ -51,6 +56,7 @@
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 	color: rgb(254, 153, 0);
+	border-bottom: 10px solid rgb(254, 153, 0);
 	
 	
 	
@@ -60,6 +66,7 @@
 .lang-logo{
 	margin-top: 40px;
 	margin-bottom: 40px;
+
 }
 .navbar{
 	margin-bottom: 0px;
@@ -67,13 +74,14 @@
 	
 	background-color: white;
 }
-article { 
+.statement { 
 	color: rgb(254, 153, 0);
 	font-size: 24px;
 	padding: 20px;
 	background-color: white;
-	margin-top: 10px;
-	width:100%;
+	margin-top: 50px;
+	width: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
 
  }
  
@@ -97,6 +105,7 @@ article {
 #Portfolio h3{ 
 	color: white;
 	padding: 20px;
+
 	
 	
 
