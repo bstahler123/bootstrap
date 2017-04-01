@@ -28,7 +28,7 @@
 	rgba(254, 153, 0, 0.6)
 		),
 	url("http://mobo.co.uk/wp-content/uploads/2014/11/Website-Design-Background.png");
-	border-bottom: 10px solid rgb(0, 153, 254);;
+	border-bottom: 10px solid rgb(0, 153, 254);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 220px;
@@ -51,19 +51,18 @@
 	border-radius: 10px; 
 
 }
-.skills-header{
+.skills-row-2{
 	
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
 	color: rgb(254, 153, 0);
 	border-bottom: 10px solid rgb(254, 153, 0);
-	
-	
-	
-	
-	
 
 }
+.skills-row-1{
+	color: rgb(254, 153, 0);
+
+}
+
+
 .lang-logo{
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -114,9 +113,13 @@
 #About {
 	height: 800px;
 }
-.skills-header h1{
+.skills-header-h1{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 50px;
 	
 	
+}
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
 }
