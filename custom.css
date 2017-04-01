@@ -17,6 +17,7 @@
 	margin-bottom: 50px;
 
 }
+
 .main-header
 { 	
 
@@ -80,7 +81,6 @@
 	padding: 20px;
 	background-color: white;
 	margin-top: 50px;
-	
 	font-family: 'Open Sans Condensed', sans-serif;
 
 
@@ -110,9 +110,7 @@
 	padding: 20px;	
 
 }
-#About {
-	height: 800px;
-}
+
 .skills-header-h1{
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 50px;
@@ -122,4 +120,7 @@
 .container-fluid{
 	margin: 0px;
 	padding: 0px;
+}
+.main-header{
+	padding-right: 0px;
 }
