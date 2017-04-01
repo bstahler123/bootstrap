@@ -108,9 +108,15 @@
 }
 #Portfolio h3{ 
 	color: white;
-	padding: 20px;
+	padding: 20px;	
 
+}
+#About {
+	height: 800px;
+}
+.skills-header h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 50px;
 	
 	
-
 }
