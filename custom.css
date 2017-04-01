@@ -61,6 +61,7 @@
 	
 	
 	
+	
 
 }
 .lang-logo{
@@ -76,12 +77,14 @@
 }
 .statement { 
 	color: rgb(254, 153, 0);
-	font-size: 24px;
+	font-size: 40px;
 	padding: 20px;
 	background-color: white;
 	margin-top: 50px;
-	width: 100%;
+	
 	font-family: 'Open Sans Condensed', sans-serif;
+
+
 	
 
  }
