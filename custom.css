@@ -1,136 +1,113 @@
 .navbar-text > a {
-	color: inherit; ;
-	text-decoration: none;
-
+    color: inherit;
+    
+    text-decoration: none;
 }
 
-.bioPic
-{
-	border-radius: 100px;
-	border: 3px solid white;
-
-
+.bioPic {
+    border-radius: 100px;
+    border: 3px solid white;
 }
+
 .main-header h2 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 30px;
-	margin-bottom: 50px;
-
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
-.main-header
-{ 	
-
-	padding-top: 50px;
-	color: white;
-	background: 
-	linear-gradient(
-	rgba(254, 153, 0, 0.6),
-	rgba(254, 153, 0, 0.6)
-		),
-	url("http://mobo.co.uk/wp-content/uploads/2014/11/Website-Design-Background.png");
-	border-bottom: 10px solid rgb(0, 153, 254);
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 220px;
-	
-
-
+.main-header {
+    padding-top: 50px;
+    color: white;
+    background: linear-gradient( rgba(254, 153, 0, 0.6), rgba(254, 153, 0, 0.6)), url("http://mobo.co.uk/wp-content/uploads/2014/11/Website-Design-Background.png");
+    border-bottom: 10px solid rgb(0, 153, 254);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 220px;
 }
 
-
-#contactheader{
-	padding-top: 20px;
-	padding-bottom: 20px;
+#contactheader {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.formcontainer{
-	background-color: lightgrey;
-	margin-top: 50px;
-	padding-bottom: 30px;
-	border: 1px solid black;
-	border-radius: 10px; 
-
-}
-.skills-row-2{
-	
-	color: rgb(254, 153, 0);
-	border-bottom: 10px solid rgb(254, 153, 0);
-
-}
-.skills-row-1{
-	color: rgb(254, 153, 0);
-
-
-}
-.skills-row-1, .skills-row-2 h3{
-font-family: 'Open Sans Condensed', sans-serif;
-padding: 10px;
-
+.formcontainer {
+    background-color: lightgrey;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
-
-.lang-logo{
-	margin-top: 40px;
-	margin-bottom: 40px;
-
+.skills-row-2 {
+    color: rgb(254, 153, 0);
+    border-bottom: 10px solid rgb(254, 153, 0);
 }
-.navbar{
-	margin-bottom: 0px;
-	
-	
-	background-color: white;
+
+.skills-row-1 {
+    color: rgb(254, 153, 0);
 }
-.statement { 
-	color: rgb(254, 153, 0);
-	font-size: 40px;
-	padding: 20px;
-	background-color: white;
-	margin-top: 50px;
-	font-family: 'Open Sans Condensed', sans-serif;
 
+.skills-row-1,
+.skills-row-2 h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10px;
+}
 
-	
+.lang-logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
- }
- 
+.navbar {
+    margin-bottom: 0px;
+    background-color: white;
+}
+
+.statement {
+    color: rgb(254, 153, 0);
+    font-size: 40px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .navbar-default .navbar-brand {
-	color:rgb(254, 153, 0);
-	
+    color: rgb(254, 153, 0);
 }
+
 .navbar-default .navbar-nav > li > a {
     color: rgb(254, 153, 0);
 }
+
 .navbar-default .navbar-toggle .icon-bar {
-   background-color: rgb(254, 153, 0);
-
-	}
-.navbar-default .navbar-text{
-	color: rgb(254, 153, 0);
+    background-color: rgb(254, 153, 0);
 }
+
+.navbar-default .navbar-text {
+    color: rgb(254, 153, 0);
+}
+
 #Portfolio {
-	background-color: rgb(0, 153, 254);
-}
-#Portfolio h3{ 
-	color: white;
-	padding: 20px;	
-
+    background-color: rgb(0, 153, 254);
 }
 
-.skills-header-h1{
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 50px;
-	margin-top: 50px;
-
-
-
-	
-	
+#Portfolio h3 {
+    color: white;
+    padding: 20px;
 }
-.container-fluid{
-	margin: 0px;
-	padding: 0px;
+
+.skills-header-h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
 }
-.main-header{
-	padding-right: 0px;
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-header {
+    padding-right: 0px;
 }
