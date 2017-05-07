@@ -25,18 +25,7 @@
     padding-bottom: 220px;
 }
 
-#contactheader {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
-.formcontainer {
-    background-color: lightgrey;
-    margin-top: 50px;
-    padding-bottom: 30px;
-    border: 1px solid black;
-    border-radius: 10px;
-}
 
 .skills-row-2 {
     color: rgb(254, 153, 0);
@@ -110,4 +99,9 @@
 
 .main-header {
     padding-right: 0px;
+}
+.contact_form {
+    margin-top: 50px;
+    margin-bottom: 100px;
+   
 }
