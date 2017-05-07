@@ -1,5 +1,5 @@
 $(document).on('click', 'a', function(event) {
-    
+
 
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
@@ -8,7 +8,7 @@ $(document).on('click', 'a', function(event) {
 
 
 $(document).ready(function() {
-	
+
     const config = {
         apiKey: "AIzaSyD5eqGeGoJKiDUXQA36Qi5_Qtoqs3aVqL0",
         authDomain: "portfolio-messenger.firebaseapp.com",
@@ -25,14 +25,16 @@ $(document).ready(function() {
         const message = $('#InputMessage').val();
         console.log(name, email, message);
         firebase.database().ref('messages').push({
-        	name, email, message
+            name,
+            email,
+            message
 
         });
-      
-       $(".alert-success").show();
-       var form = document.getElementById("my-form")
-       form.reset();
-          });
+
+        $(".alert-success").show();
+        var form = document.getElementById("my-form")
+        form.reset();
+    });
 
 
 });

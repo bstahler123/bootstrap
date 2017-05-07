@@ -9,7 +9,6 @@
     <title>Bradleys Profile</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
     <link href="custom.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
@@ -52,7 +51,7 @@
         <div class="row">
             <div class="main-header text-center col-xs-12">
                 <h2 class="wow slideInDown animated">Bradley Stahler</h2>
-                <img class="bioPic wow slideInLeft animated"  src="Images/IMG_0067-Edit copy.jpg" height="250px" width="200px">
+                <img class="bioPic wow slideInLeft animated" src="Images/IMG_0067-Edit copy.jpg" height="250px" width="200px">
                 <p class="wow slideInUp animated  statement"> Front End Developer</p>
             </div>
         </div>
@@ -86,18 +85,20 @@
         </div>
     </div>
     <!-- First row portfolio pictures -->
-
     <div class="row" id="Portfolio">
         <div class="col-sm-6 text-center">
             <h3>Gems!</h3>
-            <p><a href="https://powerful-eyrie-10437.herokuapp.com/"><img src="Images/pic1.png" height="350px" width="350px"></p></a>
+            <p>
+                <a href="https://powerful-eyrie-10437.herokuapp.com/"><img src="Images/pic1.png" height="350px" width="350px"></p>
+            </a>
         </div>
         <div class="col-sm-6 text-center">
             <h3>Let's Go!</h3>
-            <p><a href="https://infinite-retreat-23791.herokuapp.com/"><img src="Images/Let's Go!.png" height="350px" width="350px"></p></a>
+            <p>
+                <a href="https://infinite-retreat-23791.herokuapp.com/"><img src="Images/Let's Go!.png" height="350px" width="350px"></p>
+            </a>
         </div>
     </div>
-
     <!-- Second row portfolio pictures -->
     <div class="row" id="Portfolio">
         <div class="col-sm-6 text-center">
@@ -120,71 +121,62 @@
             <p><img src="Images/any (2).jpeg" height="400px" width="350px"></p>
         </div>
     </div>
-
     <!-- Contact form -->
     <h1 class="text-center contact-header"> Contact me</h1>
     <div class="container" id="contact_form">
         <div class="row">
-
-                                <!-- Alert Message sent successfully-->
+            <!-- Alert Message sent successfully-->
             <div class="col-md-12 form2">
                 <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Your message was sent successfully!</strong></div>
-              
-        
-            <form class= "form1" role="form" action="" method="post" id="my-form">
-
-
-                <div class="col-md-">
-                    <div class="well well-sm"><i class="glyphicon glyphicon-ok "></i><strong> Required Field</strong></div>
-
-
-                    <div class="form-group wow slideInUp" data-wow-delay="0.5s">
-                        <label for="InputName">Your Name</label>
-                        <div class="input-group">
-                            <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name..." required>
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                <form class="form1" role="form" action="" method="post" id="my-form">
+                    <div class="col-md-">
+                        <div class="well well-sm"><i class="glyphicon glyphicon-ok "></i><strong> Required Field</strong></div>
+                        <div class="form-group wow slideInUp" data-wow-delay="0.5s">
+                            <label for="InputName">Your Name</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name..." required>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                        </div>
+                        <div class="form-group wow slideInUp" data-wow-delay="0.5s">
+                            <label for="InputEmail">Your Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email..." required>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                        </div>
+                        <div class="form-group wow slideInUp" data-wow-delay="0.5s">
+                            <label for="InputMessage">Message</label>
+                            <div class="input-group">
+                                <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Enter Message..." required></textarea>
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                        </div>
+                        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
                     </div>
-                    <div class="form-group wow slideInUp" data-wow-delay="0.5s">
-                        <label for="InputEmail">Your Email</label>
-                        <div class="input-group">
-                            <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email..." required>
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-                    </div>
-                    <div class="form-group wow slideInUp" data-wow-delay="0.5s">
-                        <label for="InputMessage">Message</label>
-                        <div class="input-group">
-                            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Enter Message..." required></textarea>
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-                    </div>
-               
-                    <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
-                </div>
-            </form>
-            <hr class="featurette-divider hidden-lg">
-            <div class="col-lg-5 col-md-push-1">
-            </div>
-        </div>
-        <!-- fixed footer -->
-        <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-            <div class="container">
-                <div class="navbar-text pull-left">
-                    <p>© 2017 Bradley Stahler</p>
-                </div>
-                <div class="navbar-text pull-right">
-                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
-                    <a href="https://github.com/"><i class="fa fa-github-square fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                    <a href="https://www.google.com/"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                    <a href="https://ucfjanvw.slack.com/team/bstahler123"><i class="fa fa-slack fa-2x"></i></a>
+                </form>
+                <hr class="featurette-divider hidden-lg">
+                <div class="col-lg-5 col-md-push-1">
                 </div>
             </div>
-        </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://use.fontawesome.com/b222626bc6.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="bootstrap.js"></script>
+            <!-- fixed footer -->
+            <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+                <div class="container">
+                    <div class="navbar-text pull-left">
+                        <p>© 2017 Bradley Stahler</p>
+                    </div>
+                    <div class="navbar-text pull-right">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="https://github.com/"><i class="fa fa-github-square fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="https://www.google.com/"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                        <a href="https://ucfjanvw.slack.com/team/bstahler123"><i class="fa fa-slack fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://use.fontawesome.com/b222626bc6.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="bootstrap.js"></script>
 </body>
 
 </html>
