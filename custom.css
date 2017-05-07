@@ -100,6 +100,11 @@
 .main-header {
     padding-right: 0px;
 }
+@media only screen and (max-width: 500px) {
+    .contact_form{
+        margin-bottom: 200px;
+    }
+}
 .contact_form {
     margin-top: 50px;
     margin-bottom: 300px;
