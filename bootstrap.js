@@ -1,12 +1,14 @@
 $(document).on('click', 'a', function(event) {
-    event.preventDefault();
+    
 
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
 });
 
+
 $(document).ready(function() {
+	
     const config = {
         apiKey: "AIzaSyD5eqGeGoJKiDUXQA36Qi5_Qtoqs3aVqL0",
         authDomain: "portfolio-messenger.firebaseapp.com",
@@ -26,8 +28,11 @@ $(document).ready(function() {
         	name, email, message
 
         });
-
-    });
+      
+       $(".alert-success").show();
+       var form = document.getElementById("my-form")
+       form.reset();
+          });
 
 
 });

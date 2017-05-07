@@ -105,10 +105,23 @@
     margin-bottom: 100px;
 
 }
-@media only screen and (max-width: 500px) {
-    .contact_form{
-        margin-bottom: 100px;
-        margin-top: 50px;
-    }
+.alert-success{
+    display: none;
 }
+.form-group > label{
+    
+
+}
+.form2{
+    
+    margin-top: 50px;
+    margin-bottom: 75px;
+   
+}
+.form-group ::-webkit-input-placeholder{
+    color: orange;
+    font-family: 'Open Sans Condensed';
+    font-size: 18px;
+}
+
 

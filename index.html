@@ -38,7 +38,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#About">About</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href=".contact_form">Contact</a></li>
+                    <li><a href="#contact_form">Contact</a></li>
                     <!-- <li class="dropdown"> -- Dropdown for practice --
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -89,11 +89,11 @@
     <div class="row" id="Portfolio">
         <div class="col-sm-6 text-center">
             <h3>Gems!</h3>
-            <p><img src="Images/pic1.png" height="350px" width="350px"></p>
+            <p><a href="https://powerful-eyrie-10437.herokuapp.com/"><img src="Images/pic1.png" height="350px" width="350px"></p></a>
         </div>
         <div class="col-sm-6 text-center">
             <h3>Let's Go!</h3>
-            <p><img src="Images/Let's Go!.png" height="350px" width="350px"></p>
+            <p><a href="https://infinite-retreat-23791.herokuapp.com/"><img src="Images/Let's Go!.png" height="350px" width="350px"></p></a>
         </div>
     </div>
     <!-- Second row portfolio pictures -->
@@ -119,38 +119,37 @@
         </div>
     </div>
     <!-- Contact form -->
-    <div class="container contact_form">
+    <div class="container" id="contact_form">
         <div class="row">
 
                                 <!-- Alert Message sent successfully-->
-           <!-- <div class="col-md-12">
-                <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent.</strong></div>
-                <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs.</strong></div>
-            </div>
-            -->
-            <form class= "form1" role="form" action="" method="post">
+            <div class="col-md-12 form2">
+                <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Your message was sent successfully!</strong></div>
+              
+        
+            <form class= "form1" role="form" action="" method="post" id="my-form">
 
 
-                <div class="col-md-6">
+                <div class="col-md-">
                     <div class="well well-sm"><i class="glyphicon glyphicon-ok "></i><strong> Required Field</strong></div>
 
 
                     <div class="form-group">
                         <label for="InputName">Your Name</label>
                         <div class="input-group">
-                            <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                            <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name..." required>
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
                     </div>
                     <div class="form-group">
                         <label for="InputEmail">Your Email</label>
                         <div class="input-group">
-                            <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required>
+                            <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email..." required>
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
                     </div>
                     <div class="form-group">
                         <label for="InputMessage">Message</label>
                         <div class="input-group">
-                            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Enter Message..." required></textarea>
                             <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
                     </div>
                
@@ -165,7 +164,7 @@
         <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
             <div class="container">
                 <div class="navbar-text pull-left">
-                    <p>© Copyright 2017 Bradley Stahler</p>
+                    <p>© 2017 Bradley Stahler</p>
                 </div>
                 <div class="navbar-text pull-right">
                     <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
