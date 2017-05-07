@@ -107,7 +107,8 @@
 }
 @media only screen and (max-width: 500px) {
     .contact_form{
-        margin-bottom: 200px;
+        margin-bottom: 100px;
+        margin-top: 50px;
     }
 }
 
